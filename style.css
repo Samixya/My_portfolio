@@ -48,7 +48,7 @@ body{
      display: none;
  }
  span{
-    color:rgb(70, 70, 223)
+    color:rgb(234, 16, 107);
  }
  .navbar{
     font-size: 2rem;
@@ -59,8 +59,8 @@ body{
     margin-right: 200px;
  }
  .navbar a:hover{
-     border-bottom: 3px solid rgb(70, 70, 223);
-     color: rgb(70, 70, 223);
+     border-bottom: 3px solid rgb(234, 16, 107);
+     color: rgb(234,16,107);
  }
  #menu-icon{
     display: none;
@@ -112,7 +112,7 @@ section{
     transition: 0.5s ease-in-out;
 }
 .home-img img:hover{
-    box-shadow: 0 0 25px rgb(70, 70, 223);
+    box-shadow: 0 0 25px rgb(234,16,107);
 }
 .social-icon a{
     display: inline-flex;
@@ -121,17 +121,17 @@ section{
     font-size: 2rem;
     padding:1rem;
     background: transparent;
-    border: 2px solid rgb(70, 70, 223);
+    border: 2px solid rgb(234,16,107);
     border-radius: 50%;
-    color: rgb(70, 70, 223);
+    color: rgb(234,16,107);
     margin: 3rem 0.5rem;
     transition: 0.3s ease;
 }
 .social-icon a:hover{
-    background: rgb(70, 70, 223);
+    background: rgb(234,16,107);
     color: white;
     transform: scale(1.2) translateY(-5px);
-    box-shadow: 0 0 25px rgb(70, 70, 223);
+    box-shadow: 0 0 25px rgb(234,16,107);
 }
 .btn-group{
     display: flex;
@@ -165,7 +165,7 @@ section{
     transition: 0.5s ease-in-out;
 }
 .about-img img:hover{
-    box-shadow: 0 0 25px rgb(70, 70, 223);
+    box-shadow: 0 0 25px rgb(234,16,107);
 }
 .about-content h2{
     font-size: 5rem;
@@ -199,7 +199,7 @@ section{
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: rgb(70, 70, 223);
+    background-color: rgb(234,16,107);
      box-shadow: 0 0 20px white;
     height: 600px;
      border-radius: 3rem;
@@ -282,7 +282,7 @@ ul{
     align-items: center;
     flex-direction: column;
     text-align: center;
-    background-color: rgb(70, 70, 223);
+    background-color: rgb(234,16,107);
     border: 2px solid white;
     border-radius: 3rem;
     gap: 2rem;
@@ -317,12 +317,12 @@ ul{
 .footer .social{
     text-align: center;
     padding-bottom: 25px;
-    color: violet;
+    color: rgb(234,16,107);
 }
 .footer .social a{
     font-size: 30px;
     color: white;
-    border: 2px solid rgb(70, 70, 223);
+    border: 2px solid rgb(234,16,107);
     width: 42px;
     height: 42px;
     line-height: 42px;
@@ -334,9 +334,9 @@ ul{
 }
 .footer .social a:hover{
     color: white;
-    background-color: rgb(70, 70, 223);
+    background-color: rgb(234,16,107);
     transform: scale(1.2) translateY(-10px);
-    box-shadow: 0 0 25px rgb(70, 70, 223);
+    box-shadow: 0 0 25px rgb(234,16,107);
 }
 .footer ul{
     margin-top: 0;
@@ -353,7 +353,7 @@ ul{
     padding: 20px;
 }
 .footer ul li a:hover{
-    border-bottom: 3px solid rgb(70, 70, 223);
+    border-bottom: 3px solid rgb(234,16,107);
 }
 .footer ul li{
     display: inline-block;
