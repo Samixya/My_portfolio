@@ -30,8 +30,6 @@ body{
   backdrop-filter: blur(2px); 
   -webkit-backdrop-filter: blur(10px); 
 }
-
-
  .logo{
     font-size: 4rem;
     color: rgb(223, 214, 219);
@@ -60,7 +58,7 @@ body{
  }
  .navbar a:hover{
      border-bottom: 3px solid rgb(234, 16, 107);
-     color: rgb(234,16,107);
+     color: white;
  }
  #menu-icon{
     display: none;
@@ -112,7 +110,7 @@ section{
     transition: 0.5s ease-in-out;
 }
 .home-img img:hover{
-    box-shadow: 0 0 25px rgb(234,16,107);
+    box-shadow: 0 0 25px white;
 }
 .social-icon a{
     display: inline-flex;
@@ -165,7 +163,7 @@ section{
     transition: 0.5s ease-in-out;
 }
 .about-img img:hover{
-    box-shadow: 0 0 25px rgb(234,16,107);
+    box-shadow: 0 0 25px white;
 }
 .about-content h2{
     font-size: 5rem;
@@ -177,10 +175,61 @@ section{
 .about-content .btn{
     margin: 3rem 0;
 }
+.my-skills {
+  background-color: rgba(255, 255, 255, 0.05);
+   padding: 2rem;
+  border-radius: 1.5rem;
+  margin-top: 3rem; 
+  text-align: center; 
+}
+.my-skills-heading {
+  font-size: 5rem;
+  margin-bottom: 2rem; 
+  color: white;
+  text-align: left;
+}
+
+.my-skills-heading span {
+  color: rgb(234, 16, 107);
+}
+
+.skills-list {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+}
+
+.skill-item {
+  background-color: rgb(234,16,107);
+   padding: 1.5rem;
+  border-radius: 1rem;
+  width: 120px; 
+  transition: 0.3s ease;
+  box-shadow: 0 0 10px white;
+}
+
+.skill-item:hover {
+  background-color: black;
+  color: white;
+  transform: scale(1.1);
+  box-shadow: 0 0 15px white;
+}
+
+.skill-item i {
+  font-size: 2.5rem;
+   margin-bottom: 0.5rem; 
+  color: white;
+}
+
+.skill-item p {
+  font-size: 1.2rem;
+   margin: 0; 
+}
+
 .heading{
     text-align: center;
     font-size:5.5rem;
-    margin: 4rem 0;
+     margin: 4rem 0; 
 }
 .service{
       background-color: black;
@@ -406,7 +455,10 @@ ul{
   section {
     padding: 8rem 5rem;
   }
-
+    .social-icon{
+        font-size: 2rem;
+        display: flex;
+    }
   .home {
     flex-direction: column-reverse;
     gap: 3rem;
@@ -532,7 +584,10 @@ ul{
     width: 90vw;
     height: auto;
   }
-
+   .social-icon{
+        font-size: 2rem;
+        display: flex;
+    }
   .about {
     flex-direction: column;
     gap: 2rem;
@@ -553,7 +608,29 @@ ul{
     flex-direction: column;
     gap: 2rem;
   }
+  .skills-list {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1rem;
+  }
 
+  .skill-item {
+    width: 100px;
+    padding: 1rem;
+  }
+
+  .skill-item i {
+    font-size: 2rem;
+  }
+
+  .skill-item p {
+    font-size: 1rem;
+  }
+
+  .my-skills-heading {
+    font-size: 2rem;
+  }
   .service-container,
   .projects-box {
     grid-template-columns: 1fr;
